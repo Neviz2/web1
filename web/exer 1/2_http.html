@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protocolo HTTP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+    <div>
+        <h1>Protocolo HTTP</h1>
+
+        <p> O protocolo HTTP (Hypertext Transfer Protocol) é a base para a comunicação entre clientes e servidores na web. Ele define as regras e formatos para que o navegador (cliente) possa fazer requisições a um servidor e receber as respostas correspondentes. O HTTP é essencial para o funcionamento da web, pois permite que recursos, como páginas HTML, imagens, vídeos e outros conteúdos, sejam transmitidos entre o cliente e o servidor.</p>
+
+        <h2>Como o HTTP é Usado na Web</h2>
+        
+        <p> Quando você digita uma URL em seu navegador, como "www.exemplo.com", o navegador envia uma requisição HTTP para o servidor que hospeda o site. O protocolo HTTP permite que a solicitação seja feita através das portas 80 (HTTP) ou 443 (HTTPS). A requisição HTTP contém informações importantes sobre o que o cliente deseja, como o tipo de recurso (HTML, imagem, etc.) e os parâmetros necessários.</p>
+
+        <h3>GET:</h3>
+
+        <img src="Img/fetching-a-page.svg" alt="GET">
+
+        <p> GET /index.html HTTP/ <br>
+            Host: www.exemplo.com <br>
+            User-Agent: Mozilla/5.0 <br>
+            Accept: text/html   </p>
+
+        <p> Essa requisição solicita ao servidor o arquivo index.html com isso obtendo os arquivos do site.</p>
+
+    </div>
+
+    <div>
+
+        <h4> Principais Método HTTP: </h4>
+        <table>
+            <tr>
+                <th>Método HTTP</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>Solicita um recurso do servidor (geralmente uma página HTML).</td>
+            </tr>
+            <tr>
+                <td>POST</td>
+                <td>Envia dados ao servidor (por exemplo, envio de formulários).</td>
+            </tr>
+            <tr>
+                <td>PUT</td>
+                <td>Atualiza um recurso no servidor.</td>
+            </tr>
+            <tr>
+                <td>DELETE</td>
+                <td>Deleta um recurso no servidor.</td>
+            </tr>
+            <tr>
+                <td>HEAD</td>
+                <td>Solicita os cabeçalhos de um recurso (sem o corpo da resposta).</td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>

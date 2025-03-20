@@ -1,0 +1,57 @@
+body{
+    background-color: grey;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.center {
+
+    text-align: center;
+
+}
+
+p{
+
+    font-size: 18px;
+}
+
+
+.galeria{
+    width: 800px; /* Largura das imagens */
+    height: 500px; /* Altura das imagens */
+    object-fit: cover; /* Garantir que as imagens cubram o espaço sem distorção */
+}
+.galeria2{
+    width: 300px; /* Largura das imagens */
+    height: 300px; /* Altura das imagens */
+    object-fit: cover; /* Garantir que as imagens cubram o espaço sem distorção */
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+table, th, td {
+    border: 3px solid black;
+
+}
+th, td {
+    
+    padding: 5px;
+    text-align: center;
+}
+
+label{
+ 
+    background-color: blueviolet;
+    border-radius: 30%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+  }
+
+label:hover {
+    color: red;
+  } 
